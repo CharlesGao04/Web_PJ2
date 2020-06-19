@@ -1,0 +1,100 @@
+html, body, header, footer, hgroup, nav, main, article, section, figure, figcaption, h1, h2, h3, ul, li, body, div, p, img
+{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    border: 0;
+}
+
+body {
+    font-family:"Microsoft Yahei", sans-serif;
+    font-weight: bold;
+    background: lightblue;
+}
+
+#logTitle{
+    font-family: "Times New Roman";
+    font-style: italic;
+    font-weight: lighter;
+}
+
+#tips{
+    font-family: "Bookman Old Style";
+    font-style: inherit;
+    font-size: large;
+    color: blue;
+    padding-bottom: 10px;
+}
+
+.content{
+    text-align: left;
+}
+
+.indexLogin {
+    text-align: center;
+    margin-top: 5%;
+    min-height: 100%;
+}
+
+.registerLogin {
+    text-align: center;
+    margin-top: 1%;
+    min-height: 100%;
+}
+
+.logo{
+    text-align: center;
+    height: 100px;
+}
+
+.loginForm{
+    display: inline-block;
+    border-radius: 6px;
+    border-width: 1px;
+    border-style: solid;
+
+    border-color: lightblue;
+    padding: 6px 20px;
+    margin: 10px 0;
+    width: 33%;
+    background-color: white;
+}
+
+.loginForm input{
+    width: 100%;
+    height: 30px;
+    border-color: darkgray;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 100%;
+    margin: 10px 0;
+}
+
+.loginForm button{
+    width: 100%;
+    height: 30px;
+    color: white;
+    border-radius: 4px;
+    font-size: 100%;
+    margin: 10px 0;
+    color: darkgrey;
+}
+
+.loginButton{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.loginLink{
+    text-decoration: none;
+    color: blue;
+}
+
+.footerBottom {
+    width: 100%;
+    font-size: 10px;
+    position: absolute;
+    bottom:0;
+}

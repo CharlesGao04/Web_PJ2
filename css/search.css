@@ -1,0 +1,146 @@
+html, body, header, footer, hgroup, nav, main, article, section, figure, figcaption, h1, h2, h3, ul, li, body, div, p, img
+{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    border: 0;
+}
+
+.searchItem{
+    width:96%;
+    height:420px;
+    vertical-align: middle;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
+    background: black;
+    color: white;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+    display:inline-block;
+}
+
+.searchTitle{
+    width: auto;
+    font-size: 40px;
+    text-align: center;
+}
+
+.searchWay{
+    margin-left: 60px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.searchContent1{
+    margin-left: 60px;
+    margin-bottom: 10px;
+    width:1100px;
+    height: 30px;
+}
+
+.searchContent2{
+    margin-left: 60px;
+    margin-bottom: 10px;
+    width:1100px;
+    height: 200px;
+}
+
+.searchItem button{
+    margin-top: 5px;
+    margin-left: 60px;
+    width: 150px;
+    height: 30px;
+    background: lightgrey;
+    border-style: hidden;
+    border-radius: 5px;
+}
+
+.result{
+    border-color: black;
+    border-radius: 10px;
+    border-width: 10px;
+    border-style: solid;
+    margin-left: 2%;
+    margin-right: 3%;
+    width:95%;
+    height:1080px;
+    margin-top:30px;
+    margin-bottom: 20px;
+    vertical-align:middle;
+    display:inline-block;
+}
+
+.resultTitle{
+    text-align: center;
+    width: auto;
+    background: black;
+    color: white;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.resultDetail{
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:20px;
+    height:200px;
+    border: 5px solid white;
+}
+
+.littleTitle{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.pic{
+    width:200px;
+    height:200px;
+    float:left;
+    display:inline-block;
+    vertical-align:middle;
+    margin-left:20px;
+    margin-top:20px;
+}
+
+.content{
+    margin-left:250px;
+    margin-top:40px;
+    height:200px;
+    width:900px;
+    vertical-align:middle;
+    text-align:left;
+    positon:relative;
+
+}
+.word1 {
+    margin-top: 40px;
+    font-size: 18px;
+    positon:relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-align:left;
+}
+
+.bottom{
+    margin-left: 420px;
+    margin-top: 50px;
+}
+
+.bottom a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+#on{
+    color: white;
+    background-color: black;
+}

@@ -1,0 +1,150 @@
+html, body, header, footer, hgroup, nav, main, article, section, figure, figcaption, h1, h2, h3, ul, li, body, div, p, img
+{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    border: 0;
+}
+
+.detail{
+    border-color: black;
+    border-radius: 10px;
+    border-width: 20px;
+    border-style: solid;
+    margin-left: 1%;
+    margin-right: 2%;
+    width:95%;
+    height:900px;
+    margin-top:15px;
+    margin-bottom: 20px;
+    vertical-align:middle;
+    display:inline-block;
+}
+
+.detailTitle{
+    text-align: center;
+    width: auto;
+    background: black;
+    color: white;
+    font-size: 40px;
+    padding-bottom: 20px;
+    font-family: "Times New Roman";
+}
+
+
+.littleTitle{
+    margin-top:8px;
+    padding-top: 8px;
+    text-align: center;
+    width: auto;
+    color: black;
+    font-weight: bolder;
+    font-size: 30px;
+    padding-bottom: 8px;
+}
+
+
+.by{
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    font-style: italic;
+    font-family: "Times New Roman";
+    margin-top:1px;
+    padding-top:5px;
+    margin-bottom: 20px;
+}
+
+.pictureDetail{
+    margin-top: 10px;
+    width: 420px;
+    height: 560px;
+    display: inline-block;
+    margin-left: 110px;
+}
+
+.detailDescrip{
+    display: inline-block;
+    width:400px;
+    height: 400px;
+    margin-top: 40px;
+    float: right;
+    margin-right: 115px;
+}
+
+.table1{
+    text-align: center;
+    width:400px;
+    margin-bottom: 50px;
+    color: white;
+    background: black;
+    padding-bottom: 5px;
+}
+
+.table1 th{
+    font-family: "Times New Roman";
+    padding-top: 8px;
+    font-size: 35px;
+    margin-bottom: 12px;
+}
+
+.table1 td{
+    font-family: "Times New Roman";
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+
+.table2{
+    text-align: center;
+    width:400px;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+    color: white;
+    background: black;
+}
+
+.table2 th{
+    font-family: "Times New Roman";
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.table2 td{
+    font-family: "Times New Roman";
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.favorite{
+    font-weight: bold;
+    border-style: hidden;
+    border-radius: 20px;
+    font-size: 30px;
+    text-align: center;
+    width:400px;
+    height: 100px;
+    margin-bottom: 70px;
+    color: pink;
+    background: black;
+}
+
+.favorite:hover{
+    cursor: pointer;
+}
+
+.contentBottom{
+    font-family: "Microsoft Yahei", sans-serif;
+    font-weight: bolder;
+    font-size:24px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding-left: 3%;
+    padding-right: 3%;
+    width:94%;
+    height: 100px;
+}
+
+#desBottom{
+    text-align: center;
+}
