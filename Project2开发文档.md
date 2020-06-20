@@ -74,7 +74,7 @@ Github地址：https://github.com/CharlesGao04/Web_PJ2
 
 #### 3.部署服务器
 
-在阿里云上租借了一台服务器，并将整个PJ2部署在上面，sql文件也导入至服务器上的phpmyadmin内，Apache以及php版本均与本地一致，可以通过39.97.168.18:81正常访问
+在阿里云上租借了一台服务器，并将整个PJ2部署在上面，sql文件也导入至服务器上的phpmyadmin内，Apache以及php版本均与本地一致，可以通过http://www.charlesgao.cn:81/或39.97.168.18:81正常访问
 
 ### 对PJ2和本门课程的建议
 
